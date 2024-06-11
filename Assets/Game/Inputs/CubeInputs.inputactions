@@ -1,0 +1,86 @@
+{
+    "name": "CubeInputs",
+    "maps": [
+        {
+            "name": "BBK3",
+            "id": "9b2e5053-bbd5-47e6-80fc-171b5143d218",
+            "actions": [
+                {
+                    "name": "GyroscopeX",
+                    "type": "Value",
+                    "id": "c080174c-d78d-4d9f-8189-ce52ddba992e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GyroscopeY",
+                    "type": "Value",
+                    "id": "7cc9833a-0540-4c87-af1a-7ae5e131e3fb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GyroscopeZ",
+                    "type": "Value",
+                    "id": "fc72ccff-7afe-40f8-95fc-502bcf8eea4d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8b5b2074-c55a-45f1-ba42-d5a9ab310c1c",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroscopeX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1450463e-f854-4f0d-888c-8b103a5c7c72",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroscopeY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33347a5b-6f3f-4ed4-b40c-177102fcf808",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroscopeZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<HID>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
