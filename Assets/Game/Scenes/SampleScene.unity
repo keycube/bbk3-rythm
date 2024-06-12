@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 1510835190}
   - component: {fileID: 1510835189}
   - component: {fileID: 1510835188}
-  - component: {fileID: 1510835192}
+  - component: {fileID: 1510835193}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -415,7 +415,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1510835192
+--- !u!114 &1510835193
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -424,6 +424,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1510835187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7457b6726cce2eb4daeb31f999a8d8c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b08eab9ed22f7f48aa28ef3424792c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gyrscopeX: {fileID: -416352601010365126, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  gyrscopeY: {fileID: -8501922911457022309, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  gyrscopeZ: {fileID: -6852839227490898518, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  buttonUp: {fileID: -498943372514696964, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  buttonFront: {fileID: 6061304660925090332, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  buttonBack: {fileID: -4766953919818855662, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  buttonLeft: {fileID: 6348605639091228472, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  buttonRight: {fileID: 1244698356453057268, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  amplifier: 5

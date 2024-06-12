@@ -6,53 +6,98 @@
             "id": "9b2e5053-bbd5-47e6-80fc-171b5143d218",
             "actions": [
                 {
-                    "name": "GyroscopeX",
+                    "name": "GyroX",
                     "type": "Value",
-                    "id": "c080174c-d78d-4d9f-8189-ce52ddba992e",
-                    "expectedControlType": "Analog",
+                    "id": "2805ab82-03a8-4c13-a3df-57305a2f41f6",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "GyroscopeY",
+                    "name": "GyroY",
                     "type": "Value",
-                    "id": "7cc9833a-0540-4c87-af1a-7ae5e131e3fb",
-                    "expectedControlType": "Axis",
+                    "id": "21ce2975-1dec-4978-9332-964b24afeec6",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "GyroscopeZ",
+                    "name": "GyroZ",
                     "type": "Value",
                     "id": "fc72ccff-7afe-40f8-95fc-502bcf8eea4d",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "31227724-ee4a-4f10-add7-a6ce6b46aa47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "5d32ec69-73de-466f-b7a8-0c2e2296ee98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "a4937b34-98f8-473b-b13f-fadb93d33427",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Front",
+                    "type": "Button",
+                    "id": "39848725-5df3-4ef4-9b44-10df81167103",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "93dc0d66-0625-4b21-8df4-b5a93909fff5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "8b5b2074-c55a-45f1-ba42-d5a9ab310c1c",
+                    "id": "efef191a-f2fa-4f72-a811-ce6d71d6f31a",
                     "path": "<HID::Seeed XIAO nRF52840 Sense>/rx",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "GyroscopeX",
+                    "action": "GyroX",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "1450463e-f854-4f0d-888c-8b103a5c7c72",
+                    "id": "8f86ea87-6e10-43f2-82a4-f7be9ae7d867",
                     "path": "<HID::Seeed XIAO nRF52840 Sense>/ry",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "GyroscopeY",
+                    "action": "GyroY",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -63,7 +108,62 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "GyroscopeZ",
+                    "action": "GyroZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72f276a0-6690-492f-89da-888082bffe31",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3866c482-7ddf-4668-a971-f92d27a70f5b",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e980fad-1345-4540-8a5f-c9f70ca42eaa",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6844762-50aa-439c-8d5c-f3a45ddb0ac0",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Front",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6232fb80-09b9-4171-8cfe-ce401065eea6",
+                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
