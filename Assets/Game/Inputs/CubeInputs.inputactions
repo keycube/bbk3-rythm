@@ -2,36 +2,9 @@
     "name": "CubeInputs",
     "maps": [
         {
-            "name": "BBK3",
+            "name": "BBK3_Buttons",
             "id": "9b2e5053-bbd5-47e6-80fc-171b5143d218",
             "actions": [
-                {
-                    "name": "GyroX",
-                    "type": "Value",
-                    "id": "2805ab82-03a8-4c13-a3df-57305a2f41f6",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "GyroY",
-                    "type": "Value",
-                    "id": "21ce2975-1dec-4978-9332-964b24afeec6",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "GyroZ",
-                    "type": "Value",
-                    "id": "fc72ccff-7afe-40f8-95fc-502bcf8eea4d",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
                 {
                     "name": "Up",
                     "type": "Button",
@@ -81,41 +54,19 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "efef191a-f2fa-4f72-a811-ce6d71d6f31a",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/rx",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "GyroX",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8f86ea87-6e10-43f2-82a4-f7be9ae7d867",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/ry",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "GyroY",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "33347a5b-6f3f-4ed4-b40c-177102fcf808",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/rz",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "GyroZ",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "72f276a0-6690-492f-89da-888082bffe31",
                     "path": "<HID::Seeed XIAO nRF52840 Sense>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04e9e0a8-c1e7-412b-a61a-8a20f4497da9",
+                    "path": "<Keyboard>/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -136,8 +87,30 @@
                 },
                 {
                     "name": "",
+                    "id": "c32c9352-b54e-4377-b210-88e9e8867c17",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0e980fad-1345-4540-8a5f-c9f70ca42eaa",
                     "path": "<HID::Seeed XIAO nRF52840 Sense>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da6e42d0-206c-4c63-9d61-b789e1a7654b",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -158,12 +131,162 @@
                 },
                 {
                     "name": "",
+                    "id": "5c2a0c7e-ba76-4ed7-b519-514a4ab05011",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Front",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6232fb80-09b9-4171-8cfe-ce401065eea6",
                     "path": "<HID::Seeed XIAO nRF52840 Sense>/button4",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9f1a6d3-94ad-464d-8910-99fd7eeb9be0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BBK3_GyroAccel",
+            "id": "00c1b8d2-e6c5-46a7-8b7f-0b8068894837",
+            "actions": [
+                {
+                    "name": "GyroX",
+                    "type": "Value",
+                    "id": "30d89f9e-b208-42c8-8db7-78710e3c188c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GyroY",
+                    "type": "Value",
+                    "id": "4691d7de-0a84-47c0-b13b-da26ab57c70a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GyroZ",
+                    "type": "Value",
+                    "id": "f76ecdac-6cf7-4b63-9164-08a999409b1f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AccelX",
+                    "type": "Value",
+                    "id": "bb3a8b8a-0f7c-48ad-9b34-133230b5da04",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AccelY",
+                    "type": "Value",
+                    "id": "3b704d80-0a0d-47c6-ac6b-ce0260a9379a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AccelZ",
+                    "type": "Value",
+                    "id": "64ebe090-50ea-438c-8a53-7578364772a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6af7e2e1-2ee3-47b6-b6d6-229e9139b771",
+                    "path": "<BBK3GamepadHID>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ebc86d8-8766-4ead-9771-acf476da88a3",
+                    "path": "<BBK3GamepadHID>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2a2a898-8f2e-46f4-bb95-a59b96953608",
+                    "path": "<BBK3GamepadHID>/leftLowerStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5181d274-462e-4731-98b0-30c872655adf",
+                    "path": "<BBK3GamepadHID>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "343f3bf8-7857-4dfe-9dac-4a897f92f502",
+                    "path": "<BBK3GamepadHID>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d92f2d37-f3a0-4587-a484-076cd7a8f002",
+                    "path": "<BBK3GamepadHID>/leftLowerStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelZ",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

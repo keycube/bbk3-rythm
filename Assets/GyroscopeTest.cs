@@ -1,13 +1,20 @@
+using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using System.IO;
 using UnityEditor.Experimental.GraphView;
 
 public class GyroscopeTest : MonoBehaviour
 {
+    private Gyroscope _gyro;
+    private void Start()
+    {
+        _gyro = Input.gyro;
+        _gyro.enabled = true;
+        
+    }
+    
     private void Update()
     {
-        // Use system io to write the gyroscope data to a file
-        
+        Debug.Log(_gyro.attitude);
     }
 }

@@ -427,9 +427,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b08eab9ed22f7f48aa28ef3424792c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gyrscopeX: {fileID: -416352601010365126, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
-  gyrscopeY: {fileID: -8501922911457022309, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
-  gyrscopeZ: {fileID: -6852839227490898518, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  controls: {fileID: -944628639613478452, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  gyrscopeX: {fileID: 1043944044138162998, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  gyrscopeY: {fileID: -3254260700249918248, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
+  gyrscopeZ: {fileID: 8462695285916585297, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
   buttonUp: {fileID: -498943372514696964, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
   buttonFront: {fileID: 6061304660925090332, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}
   buttonBack: {fileID: -4766953919818855662, guid: dc7bbece8c5ee2241831706f15685f6f, type: 3}

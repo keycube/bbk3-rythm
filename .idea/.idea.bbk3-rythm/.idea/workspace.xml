@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b63462-f856-40ae-a77c-a241562e51ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3GamepadHID.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3GamepadHID.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.bbk3-rythm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bbk3-rythm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Inputs/CubeInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Inputs/CubeInputs.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GyroscopeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GyroscopeTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ef0191b30684937a869061138f38973572e20/87/dc54068e/FieldOffsetAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GyroscopeTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputActionRebindingExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputBinding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Controls/InputControlAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Controls/InputControlLayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Editor/EditorInputControlLayoutCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,7 +118,14 @@
       <workItem from="1718131296154" duration="311000" />
       <workItem from="1718131720430" duration="1000" />
       <workItem from="1718132020485" duration="615000" />
-      <workItem from="1718221976365" duration="5460000" />
+      <workItem from="1718221976365" duration="5777000" />
+      <workItem from="1718322043204" duration="718000" />
+      <workItem from="1719358980281" duration="2597000" />
+      <workItem from="1720030680908" duration="15037000" />
+      <workItem from="1720116538194" duration="83000" />
+      <workItem from="1720543112641" duration="6694000" />
+      <workItem from="1720651533851" duration="3854000" />
+      <workItem from="1720657768658" duration="7801000" />
     </task>
     <servers />
   </component>

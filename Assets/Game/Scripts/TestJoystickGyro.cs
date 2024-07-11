@@ -7,14 +7,10 @@ namespace Game.Scripts
 {
     public class TestJoystickGyro : MonoBehaviour
     {
-        [SerializeField] private InputActionReference gyrscopeX;
-        [SerializeField] private InputActionReference gyrscopeY;
-        [SerializeField] private InputActionReference gyrscopeZ;
-        [SerializeField] private InputActionReference buttonUp;
-        [SerializeField] private InputActionReference buttonFront;
-        [SerializeField] private InputActionReference buttonBack;
-        [SerializeField] private InputActionReference buttonLeft;
-        [SerializeField] private InputActionReference buttonRight;
+        [SerializeField] private InputActionAsset controls;
+        
+        private Vector3 velocity = Vector3.zero;
+        private InputActionMap _sensorsMap;
         
         private int currentlyPressed = 0;
         //slider for the gyroscope amplifier
@@ -23,42 +19,26 @@ namespace Game.Scripts
         // Start is called before the first frame update
         void Start()
         {
-            gyrscopeX.action.Enable();
-            gyrscopeY.action.Enable();
-            gyrscopeZ.action.Enable();
-            buttonUp.action.Enable();
-            buttonFront.action.Enable();
-            buttonBack.action.Enable();
-            buttonLeft.action.Enable();
-            buttonRight.action.Enable();
+            controls.Enable();
+            _sensorsMap = controls.actionMaps[1];
         }
 
         private void OnEnable()
         {
-            buttonLeft.action.started += OnButtonPressed;
-            buttonRight.action.started += OnButtonPressed;
-            buttonFront.action.started += OnButtonPressed;
-            buttonBack.action.started += OnButtonPressed;
-            buttonUp.action.started += OnButtonPressed;
-            buttonLeft.action.canceled += OnButtonReleased;
-            buttonRight.action.canceled += OnButtonReleased;
-            buttonFront.action.canceled += OnButtonReleased;
-            buttonBack.action.canceled += OnButtonReleased;
-            buttonUp.action.canceled += OnButtonReleased;
+            foreach (var action in controls.actionMaps[0].actions)
+            {
+                action.started += OnButtonPressed;
+                action.canceled += OnButtonReleased;
+            }
         }
         
         private void OnDisable()
         {
-            buttonLeft.action.started -= OnButtonPressed;
-            buttonRight.action.started -= OnButtonPressed;
-            buttonFront.action.started -= OnButtonPressed;
-            buttonBack.action.started -= OnButtonPressed;
-            buttonUp.action.started -= OnButtonPressed;
-            buttonLeft.action.canceled -= OnButtonReleased;
-            buttonRight.action.canceled -= OnButtonReleased;
-            buttonFront.action.canceled -= OnButtonReleased;
-            buttonBack.action.canceled -= OnButtonReleased;
-            buttonUp.action.canceled -= OnButtonReleased;
+            foreach (var action in controls.actionMaps[0].actions)
+            {
+                action.started -= OnButtonPressed;
+                action.canceled -= OnButtonReleased;
+            }
         }
         
         private void OnButtonPressed(InputAction.CallbackContext ctx)
@@ -79,11 +59,23 @@ namespace Game.Scripts
 
         private void Update()
         {
-            var x = -gyrscopeY.action.ReadValue<float>();
-            var y = -gyrscopeX.action.ReadValue<float>();
-            var z = gyrscopeZ.action.ReadValue<float>();
+            var x = _sensorsMap.FindAction("GyroX").ReadValue<float>();
+            var y = _sensorsMap.FindAction("GyroY").ReadValue<float>();
+            var z = _sensorsMap.FindAction("GyroZ").ReadValue<float>();
             var rot = Quaternion.Euler(x * amplifier, y * amplifier, z * amplifier);
             transform.Rotate(rot.eulerAngles);
+        }
+
+        private void FixedUpdate()
+        {
+            var accel = new Vector3(_sensorsMap.FindAction("AccelX").ReadValue<float>(), 
+                _sensorsMap.FindAction("AccelY").ReadValue<float>(), 
+                _sensorsMap.FindAction("AccelZ").ReadValue<float>());
+            var gyro = new Vector3(_sensorsMap.FindAction("GyroX").ReadValue<float>(), 
+                _sensorsMap.FindAction("GyroY").ReadValue<float>(), 
+                _sensorsMap.FindAction("GyroZ").ReadValue<float>());
+            Debug.Log("accel " + accel);
+            transform.position += accel;
         }
     }
 }
