@@ -79,12 +79,15 @@ namespace Game.CustomLayout
             parameters = "normalize,normalizeMin=-1,normalizeMax=1,normalizeZero=0.0,clamp,clampMin=-1,clampMax=0,invert")]
         [FieldOffset(5)] public byte rightStickY; // Accel Y
         
-        // Buttons
-        [InputControl(name = "buttonWest", layout = "Button", displayName = "B1", bit = 7)]
-        [InputControl(name = "buttonSouth", layout = "Button", displayName = "B2", bit = 6)]
-        [InputControl(name = "buttonEast", layout = "Button", displayName = "B3", bit = 5)]
-        [InputControl(name = "buttonNorth", layout = "Button", displayName = "B4", bit = 4)]
-        [InputControl(name = "leftShoulder", layout = "Button", displayName = "B5", bit = 3)]
-        [FieldOffset(7)] public byte buttons;
+        // Buttons. We don't use them all, but we define them all here just in case.
+        [InputControl(name = "trigger", layout = "Button", bit = 0, displayName = "B1")]
+        [InputControl(name = "button2", layout = "Button", bit = 1, displayName = "B2")]
+        [InputControl(name = "button3", layout = "Button", bit = 2, displayName = "B3")]
+        [InputControl(name = "button4", layout = "Button", bit = 3, displayName = "B4")]
+        [InputControl(name = "button5", layout = "Button", bit = 4, displayName = "B5")]
+        [InputControl(name = "button6", layout = "Button", bit = 5, displayName = "B6")]
+        [InputControl(name = "button7", layout = "Button", bit = 6, displayName = "B7")]
+        [InputControl(name = "button8", layout = "Button", bit = 7, displayName = "B8")]
+        [FieldOffset(8)] public byte buttons;
     }
 }

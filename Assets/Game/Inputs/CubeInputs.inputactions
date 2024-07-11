@@ -55,7 +55,7 @@
                 {
                     "name": "",
                     "id": "72f276a0-6690-492f-89da-888082bffe31",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button5",
+                    "path": "<BBK3GamepadHID>/button5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -77,7 +77,7 @@
                 {
                     "name": "",
                     "id": "3866c482-7ddf-4668-a971-f92d27a70f5b",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/trigger",
+                    "path": "<BBK3GamepadHID>/button3",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -99,7 +99,7 @@
                 {
                     "name": "",
                     "id": "0e980fad-1345-4540-8a5f-c9f70ca42eaa",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button3",
+                    "path": "<BBK3GamepadHID>/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -121,7 +121,7 @@
                 {
                     "name": "",
                     "id": "c6844762-50aa-439c-8d5c-f3a45ddb0ac0",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button2",
+                    "path": "<BBK3GamepadHID>/button2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -143,7 +143,7 @@
                 {
                     "name": "",
                     "id": "6232fb80-09b9-4171-8cfe-ce401065eea6",
-                    "path": "<HID::Seeed XIAO nRF52840 Sense>/button4",
+                    "path": "<BBK3GamepadHID>/button4",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
