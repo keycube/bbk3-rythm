@@ -62,8 +62,10 @@ namespace Game.Scripts
             var x = _sensorsMap.FindAction("GyroX").ReadValue<float>();
             var y = _sensorsMap.FindAction("GyroY").ReadValue<float>();
             var z = _sensorsMap.FindAction("GyroZ").ReadValue<float>();
+            //var rot = Quaternion.Euler(x * amplifier, y * amplifier, z * amplifier);
             var rot = Quaternion.Euler(x * amplifier, y * amplifier, z * amplifier);
             transform.Rotate(rot.eulerAngles);
+            Debug.Log(x);
         }
 
         private void FixedUpdate()
@@ -74,8 +76,8 @@ namespace Game.Scripts
             var gyro = new Vector3(_sensorsMap.FindAction("GyroX").ReadValue<float>(), 
                 _sensorsMap.FindAction("GyroY").ReadValue<float>(), 
                 _sensorsMap.FindAction("GyroZ").ReadValue<float>());
-            Debug.Log("accel " + accel);
-            transform.position += accel;
+            //Debug.Log("accel " + accel);
+            transform.position = accel;
         }
     }
 }

@@ -76,6 +76,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ff1bf03e-cf10-40a7-ac00-d0d5fc602ca2",
+                    "path": "<HID::Seeed CircuitPython HID>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3866c482-7ddf-4668-a971-f92d27a70f5b",
                     "path": "<BBK3GamepadHID>/button3",
                     "interactions": "",
@@ -89,6 +100,17 @@
                     "name": "",
                     "id": "c32c9352-b54e-4377-b210-88e9e8867c17",
                     "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9654974-9a13-4d0c-aa57-d7a6137b7eee",
+                    "path": "<HID::Seeed CircuitPython HID>/button3",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -120,6 +142,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0522b88d-b0ab-4636-a8f1-8c9d0feab734",
+                    "path": "<HID::Seeed CircuitPython HID>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c6844762-50aa-439c-8d5c-f3a45ddb0ac0",
                     "path": "<BBK3GamepadHID>/button2",
                     "interactions": "",
@@ -142,6 +175,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0f8f72fd-3555-47bc-b324-56cd98ffca39",
+                    "path": "<HID::Seeed CircuitPython HID>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Front",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6232fb80-09b9-4171-8cfe-ce401065eea6",
                     "path": "<BBK3GamepadHID>/button4",
                     "interactions": "",
@@ -155,6 +199,17 @@
                     "name": "",
                     "id": "a9f1a6d3-94ad-464d-8910-99fd7eeb9be0",
                     "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23d2e73a-52f7-4e6b-9550-fc6f6d614e0d",
+                    "path": "<HID::Seeed CircuitPython HID>/button2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -237,8 +292,30 @@
                 },
                 {
                     "name": "",
+                    "id": "7fb3cab1-5241-4181-8ce2-297560914d86",
+                    "path": "<HID::Seeed CircuitPython HID>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0ebc86d8-8766-4ead-9771-acf476da88a3",
                     "path": "<BBK3GamepadHID>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6835b37-1819-4877-9e96-eb56dffa1a97",
+                    "path": "<HID::Seeed CircuitPython HID>/stick/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -259,8 +336,30 @@
                 },
                 {
                     "name": "",
+                    "id": "a9794842-1b4d-4a93-8738-dbaaa88fcb5c",
+                    "path": "<HID::Seeed CircuitPython HID>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5181d274-462e-4731-98b0-30c872655adf",
                     "path": "<BBK3GamepadHID>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39d57fb6-c544-42c3-93a8-ce6bd7c609bf",
+                    "path": "<HID::Seeed CircuitPython HID>/rx",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -281,8 +380,30 @@
                 },
                 {
                     "name": "",
+                    "id": "bcaa1e91-149b-422d-b6be-c8e9ff9c4892",
+                    "path": "<HID::Seeed CircuitPython HID>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d92f2d37-f3a0-4587-a484-076cd7a8f002",
                     "path": "<BBK3GamepadHID>/leftLowerStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AccelZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a42bdc46-11b1-4a5d-a5db-8b9468f97450",
+                    "path": "<HID::Seeed CircuitPython HID>/rz",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

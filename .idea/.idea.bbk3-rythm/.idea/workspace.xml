@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32b63462-f856-40ae-a77c-a241562e51ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.bbk3-rythm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bbk3-rythm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3HIDInputReport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3HIDInputReport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Inputs/CubeInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Inputs/CubeInputs.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ef0191b30684937a869061138f38973572e20/87/dc54068e/FieldOffsetAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3PyGamepadHID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/CustomLayout/BBK3PyHIDInputReport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TestJoystickGyro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GyroscopeTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputActionRebindingExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -119,7 +122,10 @@
       <workItem from="1720116538194" duration="83000" />
       <workItem from="1720543112641" duration="6694000" />
       <workItem from="1720651533851" duration="3854000" />
-      <workItem from="1720657768658" duration="8792000" />
+      <workItem from="1720657768658" duration="9546000" />
+      <workItem from="1721164442800" duration="1559000" />
+      <workItem from="1721166760670" duration="1816000" />
+      <workItem from="1721677606086" duration="3744000" />
     </task>
     <servers />
   </component>
